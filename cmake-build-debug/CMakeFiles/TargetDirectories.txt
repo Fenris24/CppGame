@@ -1,0 +1,3 @@
+/home/francisc/CLionProjects/CppGame/cmake-build-debug/CMakeFiles/CppGame.dir
+/home/francisc/CLionProjects/CppGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/francisc/CLionProjects/CppGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
