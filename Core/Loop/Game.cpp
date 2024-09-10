@@ -36,7 +36,7 @@ void checkQuitting() {
     }
 }
 
-const int FPS = 165;
+const int FPS = 144;
 const std::chrono::milliseconds frameDuration(1000 / FPS);
 
 // Function to cap the frame rate

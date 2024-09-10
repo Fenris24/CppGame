@@ -147,6 +147,13 @@ build CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o: CXX_COMPILE
   OBJECT_DIR = CMakeFiles/CppGame.dir
   OBJECT_FILE_DIR = CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics
 
+build CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o: CXX_COMPILER__CppGame_unscanned_Debug /home/francisc/CLionProjects/CppGame/GameElements/Entities/Player.cpp || cmake_object_order_depends_target_CppGame
+  DEP_FILE = CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/CppGame.dir
+  OBJECT_FILE_DIR = CMakeFiles/CppGame.dir/GameElements/Entities
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CppGame
@@ -155,7 +162,7 @@ build CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o: CXX_COMPILE
 #############################################
 # Link the executable CppGame
 
-build CppGame: CXX_EXECUTABLE_LINKER__CppGame_Debug CMakeFiles/CppGame.dir/Core/main.cpp.o CMakeFiles/CppGame.dir/Core/Loop/Game.cpp.o CMakeFiles/CppGame.dir/Core/Context/GameContext.cpp.o CMakeFiles/CppGame.dir/GameElements/Map.cpp.o CMakeFiles/CppGame.dir/GameElements/Entities.cpp.o CMakeFiles/CppGame.dir/GameElements/Layout.cpp.o CMakeFiles/CppGame.dir/Persistance/Save.cpp.o CMakeFiles/CppGame.dir/Logic/Game/NewGameLogic.cpp.o CMakeFiles/CppGame.dir/Logic/Menu/MenuLogic.cpp.o CMakeFiles/CppGame.dir/Persistance/SaveData/Data.cpp.o CMakeFiles/CppGame.dir/Renderer/Renderer.cpp.o CMakeFiles/CppGame.dir/Renderer/Canvas/Canvas.cpp.o CMakeFiles/CppGame.dir/Renderer/TextureManager/TextureManager.cpp.o CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o
+build CppGame: CXX_EXECUTABLE_LINKER__CppGame_Debug CMakeFiles/CppGame.dir/Core/main.cpp.o CMakeFiles/CppGame.dir/Core/Loop/Game.cpp.o CMakeFiles/CppGame.dir/Core/Context/GameContext.cpp.o CMakeFiles/CppGame.dir/GameElements/Map.cpp.o CMakeFiles/CppGame.dir/GameElements/Entities.cpp.o CMakeFiles/CppGame.dir/GameElements/Layout.cpp.o CMakeFiles/CppGame.dir/Persistance/Save.cpp.o CMakeFiles/CppGame.dir/Logic/Game/NewGameLogic.cpp.o CMakeFiles/CppGame.dir/Logic/Menu/MenuLogic.cpp.o CMakeFiles/CppGame.dir/Persistance/SaveData/Data.cpp.o CMakeFiles/CppGame.dir/Renderer/Renderer.cpp.o CMakeFiles/CppGame.dir/Renderer/Canvas/Canvas.cpp.o CMakeFiles/CppGame.dir/Renderer/TextureManager/TextureManager.cpp.o CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lSDL2  -lSDL2_image
   OBJECT_DIR = CMakeFiles/CppGame.dir
