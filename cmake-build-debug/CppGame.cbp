@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppGame">
+				<Option output="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/CppGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/opt/sdl2/include/SDL2"/>
+					<Add directory="/opt/homebrew/opt/sdl2_image/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppGame"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppGame/fast">
+				<Option output="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/CppGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/opt/sdl2/include/SDL2"/>
+					<Add directory="/opt/homebrew/opt/sdl2_image/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppGame/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Core/Context/GameContext.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Core/Context/GameContext.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Core/Loop/Game.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Core/Loop/Game.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Core/main.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Directions.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Layout.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Layout.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Map.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Map.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Logic/Game/NewGameLogic.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Logic/Game/NewGameLogic.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Logic/Logic.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Logic/Menu/MenuLogic.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Logic/Menu/MenuLogic.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Persistance/Save.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Persistance/Save.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Persistance/SaveData/Data.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Persistance/SaveData/Data.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Camera/Camera.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Canvas.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Canvas.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Graphics/GraphicElement.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Graphics/TileMap.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Graphics/TileMap.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Renderer.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Renderer.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/TextureManager/TextureManager.cpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Renderer/TextureManager/TextureManager.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/Utils/Vec2.hpp">
+			<Option target="CppGame"/>
+		</Unit>
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

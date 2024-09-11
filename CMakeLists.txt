@@ -1,12 +1,16 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.24)
 project(CppGame)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(SDL2 REQUIRED)
-find_package(SDL2_image REQUIRED)
-
-include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
+if(APPLE)
+    include_directories(/opt/homebrew/opt/sdl2/include/SDL2 /opt/homebrew/opt/sdl2_image/include/SDL2)
+    link_directories(/opt/homebrew/opt/sdl2/lib /opt/homebrew/opt/sdl2_image/lib)
+else()
+    find_package(SDL2 REQUIRED)
+    find_package(SDL2_image REQUIRED)
+    include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS})
+endif()
 
 add_executable(CppGame Core/main.cpp
         Core/Loop/Game.cpp
