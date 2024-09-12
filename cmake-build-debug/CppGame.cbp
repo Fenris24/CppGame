@@ -104,10 +104,10 @@
 		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities.hpp">
 			<Option target="CppGame"/>
 		</Unit>
-		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp">
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.cpp">
 			<Option target="CppGame"/>
 		</Unit>
-		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.hpp">
+		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.hpp">
 			<Option target="CppGame"/>
 		</Unit>
 		<Unit filename="/Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Layout.cpp">

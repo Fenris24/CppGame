@@ -4,7 +4,7 @@
 
 #include "NewGameLogic.hpp"
 #include "../../Renderer/Canvas/Graphics/TileMap.hpp"
-#include "../../GameElements/Entities/Player.hpp"
+#include "../../GameElements/Entities/Player/Player.hpp"
 #include <SDL_keyboard.h>
 #include <chrono>
 

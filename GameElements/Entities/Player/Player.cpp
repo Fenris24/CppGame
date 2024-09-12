@@ -46,3 +46,26 @@ void Player::processInputs(const Uint8 *keys, float deltaTime) {
     }
 
 }
+
+std::string Player::getAnimation()
+{
+    std::string a;
+    switch (state) {
+        case MOVING:
+            a = "";
+            break;
+        case RUNNING:
+            break;
+        case JUMPING:
+            break;
+        case ATTACKING:
+            break;
+        case DEFENDING:
+            break;
+        case CASTING:
+            break;
+        default:
+            break;
+    }
+    return a;
+}

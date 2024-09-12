@@ -8,7 +8,8 @@
 
 #include <utility>
 
-#include "../Entities.hpp"
+#include "../../Entities.hpp"
+#include "../../../Renderer/Canvas/Canvas.hpp"
 
 class Player: public Entities {
     enum player_state{IDLE, MOVING, RUNNING, ATTACKING, CASTING, DEFENDING, JUMPING} state = IDLE;
@@ -16,6 +17,8 @@ public:
     Player(std::string spritePath, float x, float y, int hp, int damage, int speed)
     : Entities(std::move(spritePath), x, y, hp, damage, speed){};
     void processInputs(const Uint8 *state, float deltaTime);
+    std::string getAnimation();
+    void addToCanvas(Canvas &c, std::string s);
 };
 
 

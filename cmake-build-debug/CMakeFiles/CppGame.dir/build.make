@@ -265,19 +265,19 @@ CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/virlanfrancisc/C++/Clion/CppGame/Renderer/Canvas/Graphics/TileMap.cpp -o CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.s
 
-CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o: CMakeFiles/CppGame.dir/flags.make
-CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o: /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp
-CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o: CMakeFiles/CppGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o -MF CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o.d -o CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o -c /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp
+CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o: CMakeFiles/CppGame.dir/flags.make
+CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o: /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.cpp
+CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o: CMakeFiles/CppGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o -MF CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o.d -o CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o -c /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.cpp
 
-CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp > CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.i
+CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.cpp > CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.i
 
-CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player.cpp -o CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.s
+CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/virlanfrancisc/C++/Clion/CppGame/GameElements/Entities/Player/Player.cpp -o CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.s
 
 # Object files for target CppGame
 CppGame_OBJECTS = \
@@ -295,7 +295,7 @@ CppGame_OBJECTS = \
 "CMakeFiles/CppGame.dir/Renderer/Canvas/Canvas.cpp.o" \
 "CMakeFiles/CppGame.dir/Renderer/TextureManager/TextureManager.cpp.o" \
 "CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o" \
-"CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o"
+"CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o"
 
 # External object files for target CppGame
 CppGame_EXTERNAL_OBJECTS =
@@ -314,7 +314,7 @@ CppGame: CMakeFiles/CppGame.dir/Renderer/Renderer.cpp.o
 CppGame: CMakeFiles/CppGame.dir/Renderer/Canvas/Canvas.cpp.o
 CppGame: CMakeFiles/CppGame.dir/Renderer/TextureManager/TextureManager.cpp.o
 CppGame: CMakeFiles/CppGame.dir/Renderer/Canvas/Graphics/TileMap.cpp.o
-CppGame: CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o
+CppGame: CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o
 CppGame: CMakeFiles/CppGame.dir/build.make
 CppGame: CMakeFiles/CppGame.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/virlanfrancisc/C++/Clion/CppGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable CppGame"

@@ -225,29 +225,29 @@ GameElements/Entities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities.cpp.s
 .PHONY : GameElements/Entities.cpp.s
 
-GameElements/Entities/Player.o: GameElements/Entities/Player.cpp.o
-.PHONY : GameElements/Entities/Player.o
+GameElements/Entities/Player/Player.o: GameElements/Entities/Player/Player.cpp.o
+.PHONY : GameElements/Entities/Player/Player.o
 
 # target to build an object file
-GameElements/Entities/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.o
-.PHONY : GameElements/Entities/Player.cpp.o
+GameElements/Entities/Player/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.o
+.PHONY : GameElements/Entities/Player/Player.cpp.o
 
-GameElements/Entities/Player.i: GameElements/Entities/Player.cpp.i
-.PHONY : GameElements/Entities/Player.i
+GameElements/Entities/Player/Player.i: GameElements/Entities/Player/Player.cpp.i
+.PHONY : GameElements/Entities/Player/Player.i
 
 # target to preprocess a source file
-GameElements/Entities/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.i
-.PHONY : GameElements/Entities/Player.cpp.i
+GameElements/Entities/Player/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.i
+.PHONY : GameElements/Entities/Player/Player.cpp.i
 
-GameElements/Entities/Player.s: GameElements/Entities/Player.cpp.s
-.PHONY : GameElements/Entities/Player.s
+GameElements/Entities/Player/Player.s: GameElements/Entities/Player/Player.cpp.s
+.PHONY : GameElements/Entities/Player/Player.s
 
 # target to generate assembly for a file
-GameElements/Entities/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player.cpp.s
-.PHONY : GameElements/Entities/Player.cpp.s
+GameElements/Entities/Player/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppGame.dir/build.make CMakeFiles/CppGame.dir/GameElements/Entities/Player/Player.cpp.s
+.PHONY : GameElements/Entities/Player/Player.cpp.s
 
 GameElements/Layout.o: GameElements/Layout.cpp.o
 .PHONY : GameElements/Layout.o
@@ -510,9 +510,9 @@ help:
 	@echo "... GameElements/Entities.o"
 	@echo "... GameElements/Entities.i"
 	@echo "... GameElements/Entities.s"
-	@echo "... GameElements/Entities/Player.o"
-	@echo "... GameElements/Entities/Player.i"
-	@echo "... GameElements/Entities/Player.s"
+	@echo "... GameElements/Entities/Player/Player.o"
+	@echo "... GameElements/Entities/Player/Player.i"
+	@echo "... GameElements/Entities/Player/Player.s"
 	@echo "... GameElements/Layout.o"
 	@echo "... GameElements/Layout.i"
 	@echo "... GameElements/Layout.s"

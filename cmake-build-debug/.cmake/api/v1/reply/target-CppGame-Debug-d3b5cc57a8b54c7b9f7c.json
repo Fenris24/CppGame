@@ -367,12 +367,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "GameElements/Entities/Player.cpp",
+			"path" : "GameElements/Entities/Player/Player.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "GameElements/Entities/Player.hpp",
+			"path" : "GameElements/Entities/Player/Player.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{

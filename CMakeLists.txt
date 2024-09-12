@@ -42,8 +42,8 @@ add_executable(CppGame Core/main.cpp
         Renderer/Canvas/Graphics/TileMap.cpp
         Renderer/Canvas/Graphics/TileMap.hpp
         Renderer/Camera/Camera.hpp
-        GameElements/Entities/Player.cpp
-        GameElements/Entities/Player.hpp
+        GameElements/Entities/Player/Player.cpp
+        GameElements/Entities/Player/Player.hpp
         GameElements/Directions.hpp
         Utils/Vec2.hpp
 )
