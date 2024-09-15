@@ -15,8 +15,8 @@ struct Camera {
         x = targetX - width / 2;
         y = targetY - height / 2;
 
-//        x = std::max(0, std::min(x, levelWidth - width));
-//        y = std::max(0, std::min(y, levelHeight - height));
+        x = std::max(0, std::min(x, levelWidth - width));
+        y = std::max(0, std::min(y, levelHeight - height));
     }
 };
 

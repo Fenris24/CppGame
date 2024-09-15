@@ -22,8 +22,8 @@ void renderMap(SDL_Renderer &r, SDL_Texture *t, const TileMap &tileMap, const Ca
     }
 
     int tilesPerRow = textureWidth / srcTileWidth;
-    static int  dep = 0;
-    dep++;
+//    static int dep = 0;
+//    dep++;
     for (int i = 0; i < mapData.size(); i++) {
         for (int j = 0; j < mapData[i].size(); j++) {
             int tileIndex = mapData[i][j];

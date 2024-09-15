@@ -31,8 +31,17 @@ int getCurrentAnimationFrame(const float animationDuration, const int totalFrame
         currentFrame = (currentFrame + 1) % totalFrames;
         lastUpdate = now;
     }
-
     return currentFrame;
+}
+SDL_Rect getCameraOn(int entityX, int entityY, int entityW, int entityH, int mapW, int mapH, Camera &cam) {
+    int desiredCamX = entityX - cam.width / 2;
+    int desiredCamY = entityY - cam.height / 2;
+    int camX = std::clamp(desiredCamX, 0, mapW - cam.width);
+    int camY = std::clamp(desiredCamY, 0, mapH - cam.height);
+    return {entityX - camX - entityW / 2,
+            entityY - camY - entityH / 2,
+            entityW,
+            entityH};
 }
 
 void NewGameLogic::processLogic(Data &d, Canvas &c, Camera &cam) {
@@ -49,15 +58,14 @@ void NewGameLogic::processLogic(Data &d, Canvas &c, Camera &cam) {
 
     player->processInputs(state, getDeltaTime());
 
-    cam.centerOn(player->getX(), player->getY(), cam.width, cam.height);
+    cam.centerOn(player->getX(), player->getY(), 48 * 30, 48 * 30);
     m->addLayersToCanvas(c, "Resources/Maps/FirstMap/InitialPoint_layer_");
 
     int currentFrame = getCurrentAnimationFrame(0.7f, 4);
+
     std::unique_ptr<GraphicElement> ge = std::make_unique<GraphicElement>("Resources/Player/Idle_Simple.png",
                                                                           SDL_Rect{currentFrame * 48, 0, 48, 48},
-                                                                          SDL_Rect{(cam.width - 144) / 2,
-                                                                                   (cam.height - 144) / 2,
-                                                                                   144, 144});
+                                                                          getCameraOn(player->getX(), player->getY(), 144, 144, 48 * 30, 48 * 30, cam));
     c.addElement(std::move(ge));
     delete m;
 }
